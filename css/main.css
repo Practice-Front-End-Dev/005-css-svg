@@ -1,0 +1,103 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+.wrapper {
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+/* ===================================
+    Pracitcing implementing an svg as a background element 
+  ============================== /*
+.graphic, .wtf {
+  margin: 1em auto;
+  width: 20%;
+  border: 5px solid red;
+}
+
+.wtf {
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  background: transparent url('../img/star.svg') left top no-repeat;
+  min-height: 200px;
+} */
+
+
+/* ====================================
+    Simplifying star.svg on mobile browsers
+==================================== */
+
+/* DESKTOP */
+.svg-graphic {
+  margin: 2em auto;
+  padding-bottom: 0.5em;
+  width: 40%;
+  display: block;
+}
+
+/* TABLET */
+@media only screen and (max-width: 640px) {
+
+    h1 {
+      font-size: 1.4em;
+    }
+
+    h3 {
+      font-size: 0.8em;
+    }
+
+    .svg-graphic { 
+    margin: 1,5em auto;
+    width: 35%;
+    display: block;
+  }
+
+  .star-point,
+  .outer-circle {
+    opacity: 0;
+  }
+
+  .star {
+    stroke-width: 8;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
