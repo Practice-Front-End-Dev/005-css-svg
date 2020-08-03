@@ -1,3 +1,3 @@
 # css-svg
 
-https://practice-front-end-dev.github.io/005-css-svg/
+https://practice-full-stack.github.io/css-svg/
